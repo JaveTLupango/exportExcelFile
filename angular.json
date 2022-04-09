@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "exportExcelFile"
+    }
+  },
+  "defaultProject": "exportExcelFile",
+  "cli": {
+    "analytics": "dd343928-2c39-447a-857b-6e496eaa6596"
+  }
 }
