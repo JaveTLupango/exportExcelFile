@@ -1,8 +1,12 @@
+import { ExportCustomExcelFileComponent } from './export-custom-excel-file/export-custom-excel-file.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ExportExcelFileComponent } from './export-excel-file/export-excel-file.component';
 
-const routes: Routes = [{ path: 'exportExcelFile' , component:ExportExcelFileComponent}];
+const routes: Routes = [
+  { path: 'exportExcelFile' , component:ExportExcelFileComponent},
+  { path: 'exportCustomExcelFile' , component:ExportCustomExcelFileComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

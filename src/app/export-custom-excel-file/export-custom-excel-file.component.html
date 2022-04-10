@@ -1,0 +1,10 @@
+<p>export-custom-excel-file works!</p>
+
+<div class="container">
+    <select class="form-select" aria-label="Default select example">
+    <option *ngFor="let item of listOfMonth" value="1">
+      {{ item }}
+    </option>
+    </select>
+    <button class="btn btn-success" (click)="exportexcel() ">Export to Excel</button>
+</div>
