@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ExportExcelFileComponent } from './export-excel-file/export-excel-file.component';
 import { ExportCustomExcelFileComponent } from './export-custom-excel-file/export-custom-excel-file.component';
 import { ExportExcelFileCustomComponent } from './export-excel-file-custom/export-excel-file-custom.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ExportExcelFileComponent,
     ExportCustomExcelFileComponent,
-    ExportExcelFileCustomComponent
+    ExportExcelFileCustomComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,

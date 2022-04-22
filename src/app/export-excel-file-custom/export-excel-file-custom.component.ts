@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { saveAs  } from 'file-saver';
+import { saveAs  } from 'file-saver/dist/FileSaver.min.js';
 import { Workbook } from 'exceljs/dist/exceljs.min.js'
 
 @Component({
